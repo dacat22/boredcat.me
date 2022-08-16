@@ -4,74 +4,99 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <title>Forms Review</title>
+    <title>cat stuff</title>
   </head>
   <body>
     <section id="overlay">
-      <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
+      <img src="https://c.ndtvimg.com/2020-08/h5mk7js_cat-generic_625x300_28_August_20.jpg?im=Resize=(1230,900)" alt="this is a cat" id="banner" width="420" height="420">
       <hr>
-      <form action="submission.html" method="POST">
-				<h1>Create a burger!</h1>
-        <section class="protein">
-          <label for="patty">What type of protein would you like?</label>
-    			<input type="text" name="patty" id="patty">
+        <h1>u wanna see my secwit</h1>
+        <table>
+          <thead>
+          <tr>
+            <th scope="col">tut</th>
+            <th scope="col">cat rate</th>
+            <th scope="col">meow</th>
+          </tr>
+          </thead>
+          <tbody>
+            <!--- colspan="x" rowspan="y" --->
+          <tr>
+            <td>bears</td>
+            <td>meow</td>
+            <td><a href="/boredcat.me/pages/bears.html">bears</a></td>
+          </tr>
+          <tr>
+            <td>business</td>
+            <td>meoww</td>
+            <td>Package items</td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td>burgers</td>
+              <td>meow</td>
+              <td>Package items</td>
+            </tr>
+          </tfoot>
+
+				<h1>Meow when your hungry if you feel like it</h1>
+        <section class="ethos">
+          <label for="behavior">walk away and maybe come back?</label>
+    			<input type="text" name="behavior" id="behavior">
         </section>
         <hr>
         
-        <section class="patties">
-          <label for="amount">How many patties would you like?</label>
-          <input type="number" name="amount" id="amount">
-        </section>
-        <hr>
+        <form action="submission.html" method="POST">
+          <section class="feel">
+            <label for="interest">feel like it?</label>
+            <br>
+            <span>meow</span>
+            <input type="range" name="feel" id="feel" value="3" min="1" max="5">
+            <span>meooowww</span>
+          </section>
+          <hr>  
         
-        <section class="cooked">
-          <label for="doneness">How do you want your patty cooked</label>
+        <section class="things">
+          <span>do u wnna see</span>
           <br>
-          <span>Rare</span>
-          <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
-          <span>Well-Done</span>
+          <input type="checkbox" name="thing" id="burgers" value="burgers">
+          <label for="burgers">burgers</label>
+          <input type="checkbox" name="thing" id="bears" value="bears">
+          <label for="bears">bears</label>
+          <input type="checkbox" name="thing" id="business" value="business">
+          <label for="business">business</label>
+          <input type="checkbox" name="thing" id="forms" value="forms">
+          <label for="forms">forms</label>
         </section>
         <hr>
         
-        <section class="toppings">
-          <span>What toppings would you like?</span>
+        <section class="second meow">
+          <span>nap</span>
           <br>
-          <input type="checkbox" name="topping" id="lettuce" value="lettuce">
-          <label for="lettuce">Lettuce</label>
-          <input type="checkbox" name="topping" id="tomato" value="tomato">
-          <label for="tomato">Tomato</label>
-          <input type="checkbox" name="topping" id="onion" value="onion">
-          <label for="onion">Onion</label>
-        </section>
-        <hr>
-        
-        <section class="cheesy">
-          <span>Would you like to add cheese?</span>
-          <br>
-          <input type="radio" name="cheese" id="yes" value="yes">
+          <input type="radio" name="second meow" id="yes" value="yes">
           <label for="yes">Yes</label>
-          <input type="radio" name="cheese" id="no" value="yes">
+          <input type="radio" name="second meow" id="no" value="yes">
           <label for="no">No</label>
         </section>
         <hr>
        
-        <section class="bun-type">
-          <label for="bun">What type of bun would you like?</label>
-          <select name="bun" id="bun">
-            <option value="sesame">Sesame</option>
-            <option value="potatoe">Potato</option>
-            <option value="pretzel">Pretzel</option>
+        <section class="nap-type">
+          <label for="nap">nap option</label>
+          <select name="nap" id="nap">
+            <option value="couch">couch</option>
+            <option value="packing box">packing box</option>
+            <option value="pantry">pantry</option>
           </select>
         </section>
         <hr>
         
-        <section class="sauce-selection">
-          <label for="sauce">What type of sauce would you like?</label>
-          <input list="sauces" id="sauce" name="sauce">
-          <datalist id="sauces">
-            <option value="ketchup"></option>
-            <option value="mayo"></option>
-            <option value="mustard"></option>
+        <section class="vocal-selection">
+          <label for="vocal">What type of sauce would you like?</label>
+          <input list="vocals" id="vocal" name="vocal">
+          <datalist id="vocals">
+            <option value="silent"></option>
+            <option value="meow"></option>
+            <option value="MEOWWW"></option>
           </datalist>
         </section>
         <hr>
