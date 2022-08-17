@@ -9,7 +9,7 @@ body {
     font-family: cursive;
   }
    /* Navigation */
-  .nav {
+  nav {
     box-sizing: border-box;
     background-color: #3587A4;
     overflow: auto;
