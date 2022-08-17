@@ -1,20 +1,15 @@
 body {
-    background: #DFCFBE;
+    background: #fff6c7;
     margin: 0;
     padding: 0;
   }
-  
- 
-  figure{
-    font-family: cursive;
-  }
-   /* Navigation */
-  nav {
+   nav {
     box-sizing: border-box;
-    background-color: #3587A4;
+    background-color: #ffffff;
+    opacity: 1;
     overflow: auto;
     padding: 18px 50px;
-    position: relative;
+    position: top;
     top: 0;
     width: 100%;
     z-index: 999;
@@ -53,9 +48,9 @@ body {
   }
   
   thead th {
-    background: #88CCF1;
+    background: #000000;
     color: #FFF;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 2px;
@@ -69,7 +64,7 @@ body {
   }
   
   th, td {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 400;
     font-size:18px;
     padding: 20px;
