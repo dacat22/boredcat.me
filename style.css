@@ -1,12 +1,14 @@
 body {
-    background: #EEE;
+    background: #DFCFBE;
     margin: 0;
     padding: 0;
   }
   
   /* Navigation */
-  
-  .navigation {
+  figure{
+    font-family: cursive;
+  }
+  nav {
     box-sizing: border-box;
     background-color: #3587A4;
     overflow: auto;
